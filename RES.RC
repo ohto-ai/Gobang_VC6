@@ -1,0 +1,181 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// IMAGE
+//
+
+BLACK                   IMAGE   DISCARDABLE     "RES\\BLACK.jpg"
+BLACK~                  IMAGE   DISCARDABLE     "RES\\BLACK~.jpg"
+WHITE                   IMAGE   DISCARDABLE     "RES\\WHITE.jpg"
+WHITE~                  IMAGE   DISCARDABLE     "RES\\WHITE~.jpg"
+BOARD                   IMAGE   DISCARDABLE     "RES\\棋盘.jpg"
+SIGNBOARD               IMAGE   DISCARDABLE     "RES\\SignBoard.jpg"
+SIGNBOARD~              IMAGE   DISCARDABLE     "RES\\SignBoard~.jpg"
+BACKGROUND              IMAGE   DISCARDABLE     "RES\\BACKGROUND.jpg"
+SWITCH_ON               IMAGE   DISCARDABLE     "RES\\Switch_on.jpg"
+SWITCH_OFF              IMAGE   DISCARDABLE     "RES\\Switch_off.jpg"
+SWITCH_ON~              IMAGE   DISCARDABLE     "RES\\Switch_on~.jpg"
+SWITCH_OFF~             IMAGE   DISCARDABLE     "RES\\Switch_off~.jpg"
+MUSICNOTE               IMAGE   DISCARDABLE     "RES\\MusicNote.jpg"
+MUSICNOTE~              IMAGE   DISCARDABLE     "RES\\MusicNote~.jpg"
+名片                    IMAGE   DISCARDABLE     "RES\\名片.jpg"
+名片~                   IMAGE   DISCARDABLE     "RES\\名片~.jpg"
+起始画面                IMAGE   DISCARDABLE     "RES\\StartBG.jpg"
+GAMESTART0              IMAGE   DISCARDABLE     "RES\\GameStart0.jpg"
+GAMESTART0~             IMAGE   DISCARDABLE     "RES\\GameStart0~.jpg"
+GAMESTART1              IMAGE   DISCARDABLE     "RES\\GameStart1.jpg"
+GAMESTART1~             IMAGE   DISCARDABLE     "RES\\GameStart1~.jpg"
+CLOSE                   IMAGE   DISCARDABLE     "RES\\Close.jpg"
+CLOSE~                  IMAGE   DISCARDABLE     "RES\\Close~.jpg"
+MENU                    IMAGE   DISCARDABLE     "RES\\MENU.jpg"
+CHARACTER0              IMAGE   DISCARDABLE     "RES\\人物0.jpg"
+CHARACTER0~             IMAGE   DISCARDABLE     "RES\\人物0~.jpg"
+CHARACTER1              IMAGE   DISCARDABLE     "RES\\人物1.jpg"
+CHARACTER1~             IMAGE   DISCARDABLE     "RES\\人物1~.jpg"
+CREATESERVERSIGN        IMAGE   DISCARDABLE     "RES\\CreatServerSign.jpg"
+CREATESERVERSIGN~       IMAGE   DISCARDABLE     "RES\\CreatServerSign~.jpg"
+JOINSERVERSIGN          IMAGE   DISCARDABLE     "RES\\JoinServerSign.jpg"
+JOINSERVERSIGN~         IMAGE   DISCARDABLE     "RES\\JoinServerSign~.jpg"
+SCROLL                  IMAGE   DISCARDABLE     "RES\\Scroll.jpg"
+SCROLL~                 IMAGE   DISCARDABLE     "RES\\Scroll~.jpg"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+BUTTON                  WAVE    DISCARDABLE     "RES\\Button.wav"
+PIECE1                  WAVE    DISCARDABLE     "RES\\PIECE0.wav"
+PIECE0                  WAVE    DISCARDABLE     "RES\\PIECE1.wav"
+PIECE2                  WAVE    DISCARDABLE     "RES\\PIECE2.wav"
+START                   WAVE    DISCARDABLE     "RES\\Start.wav"
+BGM                     WAVE    DISCARDABLE     "RES\\BGM.mp3"
+ON                      WAVE    DISCARDABLE     "RES\\On.wav"
+CLICK                   WAVE    DISCARDABLE     "RES\\Click.wav"
+STARTMUSIC              WAVE    DISCARDABLE     "RES\\STARTMUSIC.mp3"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,1,2
+ PRODUCTVERSION 0,0,1,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "送给XY的小游戏\0"
+            VALUE "CompanyName", "that boy\0"
+            VALUE "FileDescription", "送给XY的五子棋小游戏\0"
+            VALUE "FileVersion", "0, 0, 1, 2\0"
+            VALUE "InternalName", "五子棋 单机 初代测试v0.1\0"
+            VALUE "LegalCopyright", "版权所有(C) 2017\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "五子棋.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "that boy 五子棋\0"
+            VALUE "ProductVersion", "0, 0, 1, 2\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "RES\\20171227120046394_easyicon_net_128.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+CUR_FORCE               CURSOR  DISCARDABLE     "RES\\准星.cur"
+CUR_MAIN                CURSOR  DISCARDABLE     "RES\\MAin.cur"
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

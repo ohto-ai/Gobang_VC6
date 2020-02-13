@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{356ee70c-5c64-469f-8421-9989fdaaf206}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b548cbed-32e3-4079-a8e0-fb574d4510fc}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{15e307ac-97a9-4783-84b7-47c895c21727}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RES.RC">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="五子棋.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="游戏过程.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DRAW.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SOCKET通信.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="附加宏.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="消息输出.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="音乐.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="游戏算法.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="资源处理.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="RES\20171227120046394_easyicon_net_128.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\BACKGROUND.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\BLACK.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\BLACK~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Close.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Close~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\CreatServerSign.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\CreatServerSign~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\GameStart0.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\GameStart0~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\GameStart1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\GameStart1~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ICON.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ICON1.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\JoinServerSign.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\JoinServerSign~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\MENU.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\MusicNote.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\MusicNote~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Scroll.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Scroll~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\SignBoard.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\SignBoard~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\StartBG.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Switch_off.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Switch_off~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Switch_on.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Switch_on~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\WHITE.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\WHITE~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\名片.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\名片~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\棋盘.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\人物0.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\人物0~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\人物1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\人物1~.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="RES\BGM.mp3" />
+    <Media Include="RES\Button.wav" />
+    <Media Include="RES\Click.wav" />
+    <Media Include="RES\MainWin.wav" />
+    <Media Include="RES\On.wav" />
+    <Media Include="RES\PIECE0.wav" />
+    <Media Include="RES\PIECE1.wav" />
+    <Media Include="RES\PIECE2.wav" />
+    <Media Include="RES\Start.wav" />
+    <Media Include="RES\STARTMUSIC.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RES\MAin.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RES\准星.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RES\抖动.ani" />
+  </ItemGroup>
+</Project>
